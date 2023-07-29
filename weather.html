@@ -13,6 +13,7 @@
 
   <div class="container">
     <h1>Weather Application</h1>
+    
     <div class="weather">
       <input type="text" id="cityInput" placeholder="Enter city name">
       <button onclick="getWeather()">Get Weather</button>
@@ -20,7 +21,7 @@
     </div>
     <div id="additional-info">
       <div id="temperature-info">
-        <h2>Temperature</h2>
+        <h2>Temp</h2>
         <p id="temperature"></p>
       </div>
       <div id="humidity-info">
@@ -32,7 +33,11 @@
         <p id="wind"></p>
       </div>
     </div>
-  </div>
+    </div>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">Current Time</button>
+
+    <p id="demo"></p>
+  <!-- </div> -->
 
   
 </body>
